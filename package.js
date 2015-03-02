@@ -2,7 +2,7 @@
 'use strict';
 
 var packageName = 'driftyco:ionicons';
-var version = JSON.parse(Npm.require("fs").readFileSync('component.json')).version;
+var version = '2.0.1';//JSON.parse(Npm.require("fs").readFileSync('component.json')).version;
 
 Package.describe({
     name: packageName,
